@@ -12,8 +12,8 @@ is followed for each word:
 2) attempt to insert the current word into the word grid
 starting at the generated row and column, extending in the
 generated direction
-3) Repeat 100 times or until word can be inserted with no
-letter conflicts
+3) repeat until word can be inserted with no
+letter conflicts, maxing out at 100 attempts
 
 This algorithm does not guarantee that a word grid
 involving all words will be generated, even if it is
@@ -120,7 +120,7 @@ smiabbeqlu
 ncjiuxmrpl
 kndhgjoosn
 ‾‾‾‾‾‾‾‾‾‾
-Is this the grid you would like to use? (y/n): y
+Is this the grid you would like to use? (y/n)>> y
 
 Enter the words to find in this word search, one at a time. Press enter when done. Example:
 cat
